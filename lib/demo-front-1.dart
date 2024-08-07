@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
 
+class Test extends StatelessWidget {
+  String pseudo;
+
+  Test(this.pseudo);
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(this.pseudo);
+  }
+}
+
 void main() {
   runApp(const MyApp());
 }

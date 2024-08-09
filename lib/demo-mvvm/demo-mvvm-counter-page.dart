@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class CounterPage extends StatelessWidget {
+  
   void onClickIncrement(BuildContext context) {
     // Appeler une fonction du view model
     final counterViewModel = context.read<CounterViewModel>();
